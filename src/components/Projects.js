@@ -6,7 +6,7 @@ export default function Projects() {
     {
       "name" : "Todo",
       "date" : "dd/mm/yy",
-      "summary" : "lorem ipsum lorem ipsum lorem ipsum",
+      "summary" : "Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat",
       "skills" : ['HTML', 'CSS', 'JavaScript'],
       "header-img" : "#",
       "demo-link" : "#",
@@ -15,7 +15,7 @@ export default function Projects() {
     {
       "name" : "TuneBot",
       "date" : "dd/mm/yy",
-      "summary" : "lorem ipsum lorem ipsum lorem ipsum",
+      "summary" : "Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat",
       "skills" : ['HTML', 'CSS', 'JavaScript'],
       "header-img" : "#",
       "demo-link" : "#",

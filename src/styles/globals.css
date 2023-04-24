@@ -8,6 +8,7 @@
   --background-end-rgb: 255, 255, 255;
   --primary: theme(colors.blue.400);
   --secondary: theme(colors.blue.200);
+  --hover: theme(colors.blue.200)
 
 }
 
@@ -17,7 +18,7 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
     --primary: theme(colors.gray.800);
-    --secondary: theme(colors.blue.500);
+    --secondary: theme(colors.blue.600);
     --hover: theme(colors.blue.400)
   }
 } */
