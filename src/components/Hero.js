@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Hero(){
     return (
-        <div className="flex flex-col-reverse justify-between h-auto mt-24 ml-20 mr-20 overflow-hidden text-white lg:space-x-10 lg:flex-row ">
+        <div className="flex flex-col-reverse self-center justify-between h-auto mt-24 ml-20 mr-20 overflow-hidden text-white lg:max-w-7xl lg:space-x-10 lg:flex-row">
             {/* Hero container div */}
             <div className="flex flex-col justify-between flex-grow w-auto px-8 py-8 space-y-8 border lg:w-1/5 rounded-3xl bg-primary">
                 {/* Left side */}
