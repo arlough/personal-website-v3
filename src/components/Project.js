@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Project(props) {
   return (
-    <div className="flex flex-col justify-between flex-grow px-8 py-8 space-y-8 shadow-2xl rounded-3xl bg-primary">
+    <div id={"project-" + props.info.id} className="flex flex-col justify-between flex-grow px-8 py-8 space-y-8 shadow-2xl rounded-3xl bg-primary">
     <div className="flex flex-row space-x-8 ">
     <div className="text-2xl font-bold text-white self-left md:text-4xl">
         {props.info.name}
@@ -22,8 +22,10 @@ export default function Project(props) {
         }
           </div>
     </div>
-    <div className="flex-grow text-xl font-bold text-white md:text-2xl">
-      {props.info.summary}
+    <div className="flex flex-col flex-grow space-y-5 text-white text-l md:text-2xl">
+      <div>{props.info.summary}</div>
+      <div><b>Skills</b>: {props.info.skills.join(', ')}</div>
+      
           </div>
     <div className="flex self-center my-auto space-x-8 text-4xl text-white h-1/4">
           <a className="self-center text-sm border rounded-lg bg-secondary" href="#" >

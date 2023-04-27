@@ -2,36 +2,51 @@ import React from 'react'
 import Project from './Project'
 
 export default function Projects() {
+
+  // Eventually I want to replace this with markdown files for each project
+  // Temp solution is a list of dictionaries
+  // Dict format
+  // {
+  //   "id" : (int)
+  //   "name" :  (string),
+  //   "date" : When this project was done (string),
+  //   "summary" : Short description of project, displays on main page (string)
+  //   "description" : TBA - Longer description of project, displays on project page (string)
+  //   "skills" : List of skills learned while making this app (list[string])
+  //   "header_img" : Header image to be shown as part of card on main page (string)
+  //   "media" : TBA - Additional images and videos showing off project, displays on project page (list[string])
+  //   "demo_link" : TBA - Additonal direct link to demo, displays on project page
+  //   "src_link" : Link to git repo (string)
+  // },
+
   const projects = [
+    
     {
       "id" : 1,
-      "name" : "Todo",
-      "date" : "dd/mm/yy",
-      "summary" : "Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat",
-      "skills" : ['HTML', 'CSS', 'JavaScript'],
-      "header_img" : "#",
-      "demo_link" : "https://todo-dashboard.netlify.app/",
-      "src_link" : "https://github.com/ArLough/todo",
-    },
-    {
-      "id" : 2,
       "name" : "TuneBot",
       "date" : "dd/mm/yy",
       "summary" : "Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat",
       "skills" : ['HTML', 'CSS', 'JavaScript'],
       "header_img" : "#",
-      "demo_link" : "#",
       "src_link" : "https://github.com/mumichians/TuneBot-WebApp",
     },
     {
-      "id" : 3,
+      "id" : 2,
       "name" : "Insta485",
       "date" : "/mm/yy",
       "summary" : "Built a social networking web application similar to Instagram with client-side and server-side dynamic pages as part of EECS 485: Web Systems at the University of Michigan",
       "skills" : ['Restful APIs', 'React.js', 'Python', 'Flask', 'SQLite'],
       "header_img" : "#",
-      "demo_link" : "#",
       "src_link" : "",
+    },
+    {
+      "id" : 3,
+      "name" : "Todo",
+      "date" : "dd/mm/yy",
+      "summary" : "Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat",
+      "skills" : ['HTML', 'CSS', 'JavaScript'],
+      "header_img" : "#",
+      "src_link" : "https://github.com/ArLough/todo",
     },
     {
       "id" : 4,
@@ -40,17 +55,33 @@ export default function Projects() {
       "summary" : "Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat",
       "skills" : ['HTML', 'CSS', 'JavaScript'],
       "header_img" : "#",
-      "demo_link" : "#",
       "src_link" : "https://github.com/ArLough/Personal-Website-V2",
     },
     {
       "id" : 5,
-      "name" : "Dummy",
+      "name" : "Wiki Search Engine",
       "date" : "dd/mm/yy",
       "summary" : "Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat",
       "skills" : ['HTML', 'CSS', 'JavaScript'],
       "header_img" : "#",
-      "demo_link" : "#",
+      "src_link" : "#",
+    },
+    {
+      "id" : 5,
+      "name" : "Ann Arbor Adventure",
+      "date" : "dd/mm/yy",
+      "summary" : "Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat",
+      "skills" : ["Vue.js"],
+      "header_img" : "#",
+      "src_link" : "#",
+    },
+    {
+      "id" : 5,
+      "name" : "SQL Simulator",
+      "date" : "dd/mm/yy",
+      "summary" : "Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat",
+      "skills" : ['HTML', 'CSS', 'JavaScript'],
+      "header_img" : "#",
       "src_link" : "#",
     }
   ];

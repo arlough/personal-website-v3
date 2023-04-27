@@ -8,7 +8,7 @@ export default function Navbar(){
                     <div className='flex px-5 py-2 space-x-5'>
                     {/* right nav */}
                     <div className='flex items-center space-x-5 '>
-                        <a href="#" className='px-3 py-2 hover:text-hover'>
+                        <a href="#hero" className='px-3 py-2 hover:text-hover'>
                             About Me
                         </a>
                         <a href="#projects" className='px-3 py-2 hover:text-hover'>

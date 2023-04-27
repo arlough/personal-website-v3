@@ -6,7 +6,7 @@ export default function Hero(){
     return (
         <div className="flex flex-col-reverse self-center justify-between h-auto mt-24 ml-20 mr-20 overflow-hidden text-white lg:max-w-7xl lg:space-x-10 lg:flex-row">
             {/* Hero container div */}
-            <div className="flex flex-col justify-between flex-grow w-auto px-8 py-8 space-y-8 border lg:w-1/5 rounded-3xl bg-primary">
+            <div id="hero" className="flex flex-col justify-between flex-grow w-auto px-8 py-8 space-y-8 border lg:w-1/5 rounded-3xl bg-primary">
                 {/* Left side */}
                 <div className="flex flex-col space-y-8 ">
                 <div className="text-4xl font-extrabold text-white md:text-6xl">
