@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Project(props) {
   return (
-    <div id={"project-" + props.info.id} className="flex flex-col justify-between flex-grow px-8 py-8 space-y-8 shadow-2xl rounded-3xl bg-primary">
+    <div id={"project-" + props.info.id} className="flex flex-col justify-between flex-grow px-8 py-8 space-y-8 border shadow-2xl rounded-3xl bg-primary">
     <div className="flex flex-row space-x-8 ">
     <div className="text-2xl font-bold text-white self-left md:text-4xl">
         {props.info.name}

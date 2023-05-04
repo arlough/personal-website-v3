@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
+import About from '@/components/About'
 import Projects from '@/components/Projects'
 import Footer from '@/components/Footer'
 
@@ -12,7 +13,7 @@ export default function Home() {
     <div className='flex flex-col bg-grey-600'>
       <Navbar></Navbar>
       <Hero></Hero>
-      {/* Additional About? */}
+      <About></About>
       <Projects></Projects>
       {/* Fun links section or "on the web section" */}
       <Footer></Footer>

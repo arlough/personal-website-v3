@@ -8,9 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'primary': 'var(--background-start-rgb)',
         'primary': 'var(--primary)',
         'secondary': 'var(--secondary)',
-        'hover': 'var(--hover)'
+        'hover': 'var(--hover)',
+        'button': 'var(--button)',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
