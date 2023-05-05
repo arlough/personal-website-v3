@@ -28,7 +28,7 @@ export default function Project(props) {
       
           </div>
     <div className="flex self-center my-auto space-x-8 text-black h-1/4">
-          <a className="self-center px-1 py-1 text-lg bg-white rounded-lg hover:bg-hover" href="#" >
+          <a className="self-center px-1 py-1 text-lg bg-white rounded-lg hover:bg-hover" href="/projects" >
           See More
           </a>
         
