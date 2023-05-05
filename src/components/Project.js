@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 
 export default function Project(props) {
   return (
@@ -27,9 +28,9 @@ export default function Project(props) {
       
           </div>
     <div className="flex self-center my-auto space-x-8 text-black h-1/4">
-          <a className="self-end px-1 py-1 text-lg bg-white rounded-lg hover:bg-hover" href="/projects" >
+          <Link className="self-end px-1 py-1 text-lg bg-white rounded-lg hover:bg-hover" href="/projects" >
           See More
-          </a>
+          </Link>
         
     </div>
 </div>

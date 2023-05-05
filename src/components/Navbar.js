@@ -1,4 +1,5 @@
 import React from "react"
+import Link from 'next/link';
 
 export default function Navbar(){
     return (
@@ -8,20 +9,20 @@ export default function Navbar(){
                     <div className='flex px-5 py-2 space-x-5'>
                     {/* right nav */}
                     <div className='flex items-center space-x-5 '>
-                        <a href="/" className='px-3 py-2 hover:text-hover'>
+                        <Link href="/" className='px-3 py-2 hover:text-hover'>
                             Home
-                        </a>
-                        <a href="/projects" className='px-3 py-2 hover:text-hover'>
+                        </Link>
+                        <Link href="/projects" className='px-3 py-2 hover:text-hover'>
                             Projects
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 
                 {/* left nav */}
                 <div className='flex items-center'>
-                    <a href="/contact" className='px-5 py-2 hover:text-hover'>
+                    <Link href="/contact" className='px-5 py-2 hover:text-hover'>
                         Contact
-                    </a>
+                    </Link>
                 </div>
                 </div>
             </div>

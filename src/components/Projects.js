@@ -91,7 +91,7 @@ export default function Projects() {
       <h2 className='text-4xl font-bold text-center text-white'>Projects</h2>
       <div className='flex flex-col self-center h-auto gap-12 mt-20 lg:grid lg:grid-cols-2 2xl:grid-cols-3'>
       {projects.map(project =>(
-        <Project info={project}> </Project>
+        <Project key={project.id} info={project}> </Project>
       ))}
       </div>
     </section>
