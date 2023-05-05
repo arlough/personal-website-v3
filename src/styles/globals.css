@@ -19,9 +19,9 @@
     --foreground-rgb: 0,0,0;
     --background-start-rgb: 3,7,18;
     --background-end-rgb: 3,7,18;
-    --primary: theme(colors.slate.950);
-    --secondary: theme(colors.slate.950);
-    --button: theme(colors.indigo.600);
+    --primary: theme(colors.slate.900);
+    --secondary: theme(colors.indigo.600);
+    --button: 255,255,255;
     --hover: theme(colors.indigo.600);
   }
 /* } */

@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Navbar(){
     return (
-        <nav className="font-bold text-white shadow-xl bg-background">
+        <nav className="invisible text-2xl font-bold text-white shadow-xl bg-background lg:visible">
             <div className='mx-auto rounded max-w-screen-2xl'>
                 <div className='flex justify-between'>
                     <div className='flex px-5 py-2 space-x-5'>

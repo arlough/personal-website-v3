@@ -4,15 +4,15 @@ import React from "react";
 
 export default function About(){
     return (
-        <div className="flex flex-col-reverse self-center justify-between h-auto mt-24 ml-20 mr-20 overflow-hidden text-white lg:max-w-7xl lg:space-x-10 lg:flex-row">
+        <div className="flex flex-col-reverse self-center justify-between h-auto mt-24 ml-20 mr-20 overflow-hidden text-white md:max-w-5xl lg:space-x-10 lg:flex-row">
             {/* Hero container div */}
             <div id="hero" className="flex flex-col justify-between flex-grow w-auto px-8 py-8 space-y-8 border lg:w-1/5 rounded-3xl bg-primary">
             
-                <div className="flex-grow text-2xl font-bold md:text-3xl">
+                <div className="self-center flex-grow font-bold text-center md:text-3xl">
                     {/* Description */}
-                    Hey 👋🏼, 
-                    Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat
-                    Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat
+                    Hey there! 👋🏻<br></br>
+                    I'm a developer and a recent graduate from the University of Michigan (Go Blue! 〽️) where I studied Computer Science. 
+                    My main experiences have been in backend software engineering and full-stack web development, but I'm always looking to try learn something new!
                 </div>
                 <div className="flex self-center my-auto space-x-8 text-4xl text-white h-1/4">
                     {/* Links */}

@@ -27,8 +27,8 @@ export default function Project(props) {
       <div><b>Skills</b>: {props.info.skills.join(', ')}</div>
       
           </div>
-    <div className="flex self-center my-auto space-x-8 text-4xl text-white h-1/4">
-          <a className="self-center text-sm border rounded-lg bg-secondary" href="#" >
+    <div className="flex self-center my-auto space-x-8 text-black h-1/4">
+          <a className="self-center px-1 py-1 text-lg bg-white rounded-lg hover:bg-hover" href="#" >
           See More
           </a>
         
