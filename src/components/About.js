@@ -4,7 +4,7 @@ import React from "react";
 
 export default function About(){
     return (
-        <div className="flex flex-col-reverse self-center justify-between h-auto mt-24 ml-20 mr-20 overflow-hidden text-white md:max-w-5xl lg:space-x-10 lg:flex-row">
+        <section className="flex flex-col-reverse self-center justify-between h-auto ml-20 mr-20 overflow-hidden text-white md:max-w-5xl lg:space-x-10 lg:flex-row">
             {/* Hero container div */}
             <div id="hero" className="flex flex-col justify-between flex-grow w-auto px-8 py-8 space-y-8 border lg:w-1/5 rounded-3xl bg-primary">
             
@@ -12,7 +12,7 @@ export default function About(){
                     {/* Description */}
                     Hey there! 👋🏻<br></br>
                     I'm a developer and a recent graduate from the University of Michigan (Go Blue! 〽️) where I studied Computer Science. 
-                    My main experiences have been in backend software engineering and full-stack web development, but I'm always looking to try learn something new!
+                    My main experiences have been in backend software engineering and full-stack web development, but I'm always looking to learn something new!
                 </div>
                 <div className="flex self-center my-auto space-x-8 text-4xl text-white h-1/4">
                     {/* Links */}
@@ -26,13 +26,13 @@ export default function About(){
                     </a>
                     
                     <a href="mailto:loughneyaidan@gmail.com">
-                    <svg className=" hover:fill-hover" xmlns="http://www.w3.org/2000/svg" width="48" height="48"  viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                    <svg className="fill-white text-primary hover:fill-hover" xmlns="http://www.w3.org/2000/svg" width="48" height="48"  viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                     </svg>
                     </a>
                 </div>
             </div>
 
-        </div>
+        </section>
     );
 }

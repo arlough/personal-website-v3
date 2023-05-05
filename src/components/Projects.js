@@ -87,10 +87,13 @@ export default function Projects() {
   ];
   return (
   
-      <div id="projects" className='flex flex-col self-center h-auto mt-20 ml-20 mr-20 space-x-12 max-w-screen-2xl space-y-14 lg:grid lg:grid-cols-2 2xl:grid-cols-3'>
+      <section id="projects" className='self-center h-auto ml-20 mr-20 max-w-screen-2xl'>
+      <h2 className='text-4xl font-bold text-center text-white'>Projects</h2>
+      <div className='flex flex-col self-center h-auto gap-12 mt-20 lg:grid lg:grid-cols-2 2xl:grid-cols-3'>
       {projects.map(project =>(
         <Project info={project}> </Project>
       ))}
-    </div>
+      </div>
+    </section>
   )
 }

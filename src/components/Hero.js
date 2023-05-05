@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 export default function Hero(){
     return (
-        <div className="flex flex-col-reverse self-center justify-between h-auto mt-24 ml-20 mr-20 overflow-hidden text-white lg:max-w-7xl lg:space-x-10 lg:flex-row">
+        <section className="flex flex-col-reverse self-center justify-between h-auto ml-20 mr-20 overflow-hidden text-white lg:max-w-7xl lg:space-x-10 lg:flex-row">
             {/* Hero container div */}
             <div id="hero" className="flex flex-col justify-center flex-grow w-auto px-8 py-8 space-y-8 lg:w-1/5">
                 {/* Left side */}
@@ -30,6 +30,6 @@ export default function Hero(){
                 alt="profile picture"
                 />
             
-        </div>
+        </section>
     );
 }
