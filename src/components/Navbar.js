@@ -8,10 +8,10 @@ export default function Navbar(){
                     <div className='flex px-5 py-2 space-x-5'>
                     {/* right nav */}
                     <div className='flex items-center space-x-5 '>
-                        <a href="#hero" className='px-3 py-2 hover:text-hover'>
-                            About Me
+                        <a href="/" className='px-3 py-2 hover:text-hover'>
+                            Home
                         </a>
-                        <a href="#projects" className='px-3 py-2 hover:text-hover'>
+                        <a href="/projects" className='px-3 py-2 hover:text-hover'>
                             Projects
                         </a>
                     </div>
@@ -19,7 +19,7 @@ export default function Navbar(){
                 
                 {/* left nav */}
                 <div className='flex items-center'>
-                    <a href="#" className='px-5 py-2 hover:text-hover'>
+                    <a href="/contact" className='px-5 py-2 hover:text-hover'>
                         Contact
                     </a>
                 </div>
