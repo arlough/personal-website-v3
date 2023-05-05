@@ -26,7 +26,8 @@ export default function Hero(){
 
           
                 {/* RIght side - image */}
-                <img className="self-center invisible w-2/5 h-auto m-auto mb-10 shadow-2xl md:visible lg:mb-0 rounded-2xl shadow-secondary"
+                <Image width={500}
+      height={500} className="self-center w-2/5 h-auto m-auto mb-10 shadow-2xl lg:mb-0 rounded-2xl shadow-secondary"
                 src='/profile_pic.jpg'
                 alt="profile picture"
                 />
