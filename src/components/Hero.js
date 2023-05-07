@@ -25,9 +25,9 @@ export default function Hero(){
             </div>
 
           
-                {/* RIght side - image */}
+                {/* Right side - image */}
                 <Image width={500}
-      height={500} className="self-center w-2/5 h-auto m-auto mb-10 shadow-2xl lg:mb-0 rounded-2xl shadow-secondary"
+                height={500} className="self-center w-2/5 h-auto m-auto mb-10 shadow-2xl lg:mb-0 rounded-2xl shadow-secondary"
                 src='/profile_pic.jpg'
                 alt="profile picture"
                 />
