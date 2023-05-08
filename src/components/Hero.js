@@ -9,11 +9,11 @@ export default function Hero(){
             <div id="hero" className="flex flex-col justify-center flex-grow w-auto px-8 py-8 space-y-8 lg:w-1/5">
                 {/* Left side */}
                 <div className="flex flex-col space-y-8 ">
-                <div className="text-4xl font-extrabold text-white md:text-6xl">
+                <div className="text-3xl font-extrabold text-center text-white sm:text-4xl md:text-left md:text-6xl">
                     {/* Header */}
                    Aidan Loughney
                 </div>
-                <div className="text-3xl font-extrabold md:text-4xl">
+                <div className="text-2xl font-extrabold text-center sm:text-3xl md:text-left md:text-4xl">
                     {/* Description */}
                     <Typewriter 
                     onInit={(typewriter) => 
@@ -26,7 +26,9 @@ export default function Hero(){
 
           
                 {/* Right side - image */}
-                <Image width={750}
+                <Image 
+                priority={true} 
+                width={750}
                 height={750} className="self-center w-2/5 h-auto m-auto mb-10 shadow-2xl lg:mb-0 rounded-2xl shadow-secondary"
                 src='/profile_pic.jpg'
                 alt="profile picture"

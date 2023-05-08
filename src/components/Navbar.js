@@ -4,7 +4,7 @@ import Navbtn from '@/components/atoms/Navbtn'
 
 export default function Navbar(){
     return (
-        <nav className="invisible mt-3 text-2xl font-bold text-white shadow-xl bg-background lg:visible">
+        <nav className="invisible mt-3 text-2xl font-bold text-white shadow-xl bg-background md:visible">
             <div className='mx-auto rounded max-w-screen-2xl'>
                 <div className='flex justify-between'>
                     <div className='flex px-5 py-2 space-x-5'>
@@ -16,7 +16,7 @@ export default function Navbar(){
                 </div>
                 
                 {/* left nav */}
-                <div className='flex px-5 py-2 items-center'>
+                <div className='flex items-center px-5 py-2'>
                     <Navbtn link={"/contact"} label={"Contacts"}></Navbtn>
                 </div>
                 </div>
