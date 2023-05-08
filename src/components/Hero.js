@@ -29,7 +29,7 @@ export default function Hero(){
                 <Image 
                 priority={true} 
                 width={750}
-                height={750} className="self-center w-2/5 h-auto m-auto mb-10 shadow-2xl lg:mb-0 rounded-2xl shadow-secondary"
+                height={750} className="self-center w-4/5 h-auto m-auto mb-10 shadow-2xl sm:w-2/5 lg:mb-0 rounded-2xl shadow-secondary"
                 src='/profile_pic.jpg'
                 alt="profile picture"
                 />
