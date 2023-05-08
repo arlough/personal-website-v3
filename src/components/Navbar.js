@@ -16,7 +16,7 @@ export default function Navbar(){
                 </div>
                 
                 {/* left nav */}
-                <div className='flex items-center'>
+                <div className='flex px-5 py-2 items-center'>
                     <Navbtn link={"/contact"} label={"Contacts"}></Navbtn>
                 </div>
                 </div>
