@@ -39,12 +39,21 @@ export default function Projects() {
       "header_img" : "#",
       "src_link" : "",
     },
-    {
+     {
       "id" : 3,
+      "name" : "Ann Arbor Adventure",
+      "date" : "dd/mm/yy",
+      "summary" : "A location based adventure web app built with Vue.js as a final project for EECS 493: Intro to User Interface Design at the University of Michigan",
+      "skills" : ["Vue.js, HTML, CSS"],
+      "header_img" : "#",
+      "src_link" : "#",
+    },
+    {
+      "id" : 4,
       "name" : "Todo Dashboard",
       "date" : "dd/mm/yy",
       "summary" : "A dashboard featuring a todo list, weather in your area, and a greeting based on the time of day.",
-      "skills" : ['HTML', 'CSS', 'JavaScript'],
+      "skills" : ['JavaScript', 'HTML', 'CSS'],
       "header_img" : "#",
       "src_link" : "https://github.com/ArLough/todo",
     }
@@ -66,15 +75,7 @@ export default function Projects() {
     //   "header_img" : "#",
     //   "src_link" : "#",
     // },
-    // {
-    //   "id" : 5,
-    //   "name" : "Ann Arbor Adventure",
-    //   "date" : "dd/mm/yy",
-    //   "summary" : "Laboris veniam dolore cupidatat et nostrud amet ad lorem aliqua ipsum officia dolore velit ad pariatur. Qui nostrud adipiscing deserunt esse ex laboris commodo irure dolor sint duis occaecat",
-    //   "skills" : ["Vue.js"],
-    //   "header_img" : "#",
-    //   "src_link" : "#",
-    // },
+   
     // {
     //   "id" : 5,
     //   "name" : "SQL Simulator",
