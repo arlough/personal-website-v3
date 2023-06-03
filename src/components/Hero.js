@@ -1,8 +1,10 @@
 import React from "react";
 import Image from 'next/image';
 import Typewriter from "typewriter-effect";
+import { motion } from "framer-motion";
 
 export default function Hero(){
+    
     return (
         <section className="flex flex-col-reverse self-center justify-between h-auto ml-20 mr-20 overflow-hidden text-white lg:max-w-7xl lg:space-x-10 lg:flex-row">
             {/* Hero container div */}
@@ -11,7 +13,15 @@ export default function Hero(){
                 <div className="flex flex-col space-y-8 ">
                 <div className="text-3xl font-extrabold text-center text-white sm:text-4xl md:text-left md:text-6xl">
                     {/* Header */}
-                   Aidan Loughney
+                    <motion.div
+                        initial={{y:-100}}
+                        animate={{ y: 0}}
+                        transition={{ type: "spring" }}
+                        
+                    >
+                        Aidan Loughney
+                    </motion.div>
+                   
                 </div>
                 <div className="text-2xl font-extrabold text-center sm:text-3xl md:text-left md:text-4xl">
                     {/* Description */}
@@ -26,6 +36,7 @@ export default function Hero(){
 
           
                 {/* Right side - image */}
+                
                 <Image 
                 priority={true} 
                 width={750}
@@ -37,3 +48,5 @@ export default function Hero(){
         </section>
     );
 }
+
+
