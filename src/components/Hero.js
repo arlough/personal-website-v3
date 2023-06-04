@@ -36,17 +36,26 @@ export default function Hero(){
 
           
                 {/* Right side - image */}
-                
-                <Image 
-                priority={true} 
-                width={750}
-                height={750} className="self-center w-4/5 h-auto m-auto mb-10 shadow-2xl sm:w-2/5 lg:mb-0 rounded-2xl shadow-secondary"
-                src='/profile_pic.jpg'
-                alt="profile picture"
-                />
+                <motion.div
+                    className="container"
+                    initial={{ scale: 0 }}
+                    animate={{scale: 1 }}
+                    transition={{ ease: "easeOut", duration: 0.75 }}
+                >
+                    <Image 
+                    priority={true} 
+                    width={750}
+                    height={750} className="self-center w-4/5 h-auto m-auto mb-10 shadow-2xl sm:w-2/5 lg:mb-0 rounded-2xl shadow-secondary"
+                    src='/profile_pic.jpg'
+                    alt="profile picture"
+                    />
+                </motion.div>
+
             
         </section>
     );
 }
+
+
 
 
