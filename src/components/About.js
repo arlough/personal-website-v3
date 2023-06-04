@@ -4,9 +4,9 @@ import React from "react";
 
 export default function About(){
     return (
-        <section className="flex flex-col-reverse self-center justify-between h-auto ml-20 mr-20 overflow-hidden text-white md:max-w-5xl lg:space-x-10 lg:flex-row">
+        <section className="self-center justify-between h-auto ml-20 mr-20 overflow-hidden text-white md:max-w-5xl">
             {/* Hero container div */}
-            <div id="hero" className="flex flex-col justify-between flex-grow w-auto px-8 py-8 space-y-8 border lg:w-1/5 rounded-3xl bg-primary">
+            <div id="about" className="flex flex-col justify-between flex-grow px-8 py-8 space-y-8 border rounded-3xl bg-primary">
             
                 <div className="self-center flex-grow font-bold text-center md:text-3xl">
                     {/* Description */}
