@@ -37,7 +37,7 @@ export default function Hero(){
           
                 {/* Right side - image */}
                 <motion.div
-                    className="container"
+                    className="container self-center w-4/5 h-auto m-auto mb-10 shadow-2xl sm:w-2/5 lg:mb-0 rounded-2xl shadow-secondary"
                     initial={{ scale: 0 }}
                     animate={{scale: 1 }}
                     transition={{ ease: "easeOut", duration: 0.75 }}
@@ -45,7 +45,7 @@ export default function Hero(){
                     <Image 
                     priority={true} 
                     width={750}
-                    height={750} className="self-center w-4/5 h-auto m-auto mb-10 shadow-2xl sm:w-2/5 lg:mb-0 rounded-2xl shadow-secondary"
+                    height={750} className=""
                     src='/profile_pic.jpg'
                     alt="profile picture"
                     />
