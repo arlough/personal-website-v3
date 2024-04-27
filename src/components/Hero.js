@@ -1,61 +1,63 @@
 import React from "react";
-import Image from 'next/image';
-import Typewriter from "typewriter-effect";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
-export default function Hero(){
-    
-    return (
-        <section className="flex flex-col-reverse self-center justify-between h-auto ml-20 mr-20 overflow-hidden text-white lg:max-w-7xl lg:space-x-10 lg:flex-row">
-            {/* Hero container div */}
-            <div id="hero" className="flex flex-col justify-center flex-grow w-auto px-8 py-8 space-y-8 lg:w-1/5">
-                {/* Left side */}
-                <div className="flex flex-col space-y-8 ">
-                <div className="text-3xl font-extrabold text-center text-white sm:text-4xl md:text-left md:text-6xl">
-                    {/* Header */}
-                    <motion.div
-                        initial={{y:-100}}
-                        animate={{ y: 0}}
-                        transition={{ type: "spring" }}
-                        
-                    >
-                        Aidan Loughney
-                    </motion.div>
-                   
-                </div>
-                <div className="text-2xl font-extrabold text-center sm:text-3xl md:text-left md:text-4xl">
-                    {/* Description */}
-                    <Typewriter 
-                    onInit={(typewriter) => 
-                    {typewriter.typeString('Software Engineer').callFunction(() => {console.log('String typed out!');}).start();}}
-                    />
-                </div>
-                </div>
-                
-            </div>
+export default function Hero() {
+  return (
+    <section className="flex flex-col justify-center ml-4 mr-4 text-white sm:flex-row">
+      <motion.div
+        className="px-8 "
+        initial={{ scale: 0.75 }}
+        animate={{ scale: 1 }}
+        transition={{ ease: "easeOut", duration: 0.5 }}
+      >
+        <Image
+          priority={true}
+          width={200}
+          height={250}
+          className=" rounded-3xl"
+          src="/profile_pic.jpg"
+          alt="profile picture"
+        />
+      </motion.div>
 
-          
-                {/* Right side - image */}
-                <motion.div
-                    className="container self-center w-4/5 h-auto m-auto mb-10 shadow-2xl sm:w-2/5 lg:mb-0 rounded-2xl shadow-secondary"
-                    initial={{ scale: 0 }}
-                    animate={{scale: 1 }}
-                    transition={{ ease: "easeOut", duration: 0.75 }}
-                >
-                    <Image 
-                    priority={true} 
-                    width={750}
-                    height={750} className=""
-                    src='/profile_pic.jpg'
-                    alt="profile picture"
-                    />
-                </motion.div>
-
-            
-        </section>
-    );
+      <div
+        id="hero"
+        className="flex flex-col justify-center w-auto px-8 py-8 space-y-3 sm:w-2/5 "
+      >
+          <div className="text-3xl font-extrabold text-left">
+            {/* Header */}
+            <motion.div
+              initial={{ x: 100 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring" }}
+              
+            >
+              Aidan Loughney
+            </motion.div>
+          </div>
+          <div className="text-xl font-bold text-left">
+            {/* Description */}
+            <motion.div
+              initial={{ x: 100 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring" }}
+            >
+              Hey there! 👋🏻
+            </motion.div>
+          </div>
+          <div className="text-xl font-bold text-left">
+            {/* Description */}
+            <motion.div
+              initial={{ x: 100 }}
+              animate={{ x: 0 }}
+              transition={{ type: "spring" }}
+            >
+              I'm Aidan, a Software Engineer based out of Salt Lake
+              City ⛰️
+            </motion.div>
+          </div>
+        </div>
+    </section>
+  );
 }
-
-
-
-

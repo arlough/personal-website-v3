@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Layout({children}) {
   return (
-    <div className='flex flex-col justify-between min-h-screen space-y-40'>
+    <div className='flex flex-col justify-between min-h-screen space-y-40 '>
       <Head>
         <title>
           Home - Aidan Loughney
