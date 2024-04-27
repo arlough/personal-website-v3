@@ -11,8 +11,7 @@ export default function About(){
                 <div className="self-center flex-grow font-bold text-center md:text-3xl">
                     {/* Description */}
                     Hey there! 👋🏻<br></br>
-                    I&apos;m a developer and a recent graduate from the University of Michigan (Go Blue! 〽️) where I studied Computer Science. 
-                    My main experiences have been in backend software engineering and full-stack web development, but I&apos;m always looking to learn something new!
+                    I&apos;m a Software Engineer at SoFi based out Salt Lake City. Previously I was a student at the University of Michigan (Go Blue! 〽️) where I graduated with a degree in Computer Science. 
                 </div>
                 <div className="flex self-center my-auto space-x-8 text-4xl text-white h-1/4">
                     {/* Links */}
