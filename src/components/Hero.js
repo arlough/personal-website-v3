@@ -25,38 +25,34 @@ export default function Hero() {
         id="hero"
         className="flex flex-col justify-center w-auto px-8 py-8 space-y-3 sm:w-2/5 "
       >
-          <div className="text-3xl font-extrabold text-left">
-            {/* Header */}
-            <motion.div
+
+            <motion.h1
               initial={{ x: 100 }}
               animate={{ x: 0 }}
               transition={{ type: "spring" }}
-              
+              className="text-3xl font-extrabold text-left"
             >
               Aidan Loughney
-            </motion.div>
-          </div>
-          <div className="text-xl font-bold text-left">
-            {/* Description */}
-            <motion.div
+            </motion.h1>
+            <motion.p
               initial={{ x: 100 }}
               animate={{ x: 0 }}
               transition={{ type: "spring" }}
+              className="text-xl font-bold text-left"
             >
-              Hey there! 👋🏻
-            </motion.div>
-          </div>
-          <div className="text-xl font-bold text-left">
-            {/* Description */}
-            <motion.div
+              Hey there! <span className="">👋🏻</span>
+            </motion.p>
+
+            <motion.p
               initial={{ x: 100 }}
               animate={{ x: 0 }}
               transition={{ type: "spring" }}
+              className="text-xl font-bold text-left"
             >
-              I'm Aidan, a Software Engineer based out of Salt Lake
-              City ⛰️
-            </motion.div>
-          </div>
+              {"I'm Aidan, a Software Engineer based out of Salt Lake"}
+              City <span className="">⛰️</span>
+            </motion.p>
+      
         </div>
     </section>
   );
