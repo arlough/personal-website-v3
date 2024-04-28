@@ -49,8 +49,7 @@ export default function Hero() {
               transition={{ type: "spring" }}
               className="text-xl font-bold text-left"
             >
-              {"I'm Aidan, a Software Engineer based out of Salt Lake"}
-              City <span className="">⛰️</span>
+              I&apos;m Aidan, a Software Engineer based out of Salt Lake City <span className="">⛰️</span>
             </motion.p>
       
         </div>
