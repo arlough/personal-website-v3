@@ -40,7 +40,7 @@ export default function Hero() {
               transition={{ type: "spring" }}
               className="text-xl font-bold text-left"
             >
-              Hey there! <span className="">👋🏻</span>
+              Hey there! <span className="inline-block animation-waving-hand">👋🏻</span>
             </motion.p>
 
             <motion.p
@@ -49,7 +49,7 @@ export default function Hero() {
               transition={{ type: "spring" }}
               className="text-xl font-bold text-left"
             >
-              I&apos;m Aidan, a Software Engineer based out of Salt Lake City <span className="">⛰️</span>
+              I&apos;m Aidan, a Software Engineer based out of Salt Lake City <span className="inline-block hover:animate-jump">⛰️</span>
             </motion.p>
       
         </div>

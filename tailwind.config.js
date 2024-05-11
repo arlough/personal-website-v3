@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {'sans':['-apple-system-ui-serif', "ui-serif", 'Georgia', "serif"]},
       colors: {
         'primary': 'var(--background-start-rgb)',
         'primary': 'var(--primary)',
@@ -30,9 +31,18 @@ module.exports = {
           '60%': { transform: 'rotate(0.0deg)' },
           '100%': { transform: 'rotate(0.0deg)' },
         },
+        jump: {
+          '0%': { transform: 'translateY(0%)' },
+          '25%': { transform: 'translateY(-10%)' },
+          '50%': { transform: 'translateY(-20%)' },
+          '60%': { transform: 'translateY(-10%)' },
+          '70%': { transform: 'translateY(-5%)' },
+          '80%': { transform: 'translateY(0)' },
+        },
       },
       animation: {
-        'waving-hand': 'wave 2s linear infinite',
+        'waving-hand': 'wave 2s linear 2',
+        'jump': 'jump 0.5s ease-in 2',
       },
     },
   },
