@@ -11,7 +11,7 @@ export default function Colophon() {
       <Section>
         <p>
           {" "}
-          You may be asking yourself "Wait what's this page for?" In short, you
+          You may be asking yourself &quot;Wait what&apos;s this page for?&quot; In short, you
           can think of this page as a mixture of a credits page and a how it was
           built page. Or as{" "}
           <a
@@ -23,9 +23,9 @@ export default function Colophon() {
           describes it...
         </p>
         <BlockQuote citation={"https://indieweb.org/colophon"}>
-          "A colophon is a page or section, like a footer, of a site that
+        &quot;A colophon is a page or section, like a footer, of a site that
           describes how the site is made, with what tools, supporting what
-          technologies."
+          technologies.&quot;
         </BlockQuote>
       </Section>
       <Section title={"How it was made"}>
@@ -48,7 +48,7 @@ export default function Colophon() {
       <Section title={"Inspirations"}>
         <ul>
           <li>
-            - I'm using Apple's New York font which was inspired by this blog post
+            - I&apos;m using Apple&apos;s New York font which was inspired by this blog post
           </li>
           <li>
             - Finally, the concept of this page is inspired by{" "}
