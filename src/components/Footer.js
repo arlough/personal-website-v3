@@ -2,10 +2,8 @@ import React from 'react'
 
 export default function Footer() {
   return (
-   <footer>
-    <div className='w-full py-10 mt-20 text-sm text-center text-white rounded-l bg-background'>
-        © 2023 Aidan Loughney
-    </div>
+   <footer className='w-full py-5 mt-auto text-sm text-center '>
+        © 2023 Aidan Loughney · <a className="underline hover:text-hover" href="colophon">colophon</a>
    </footer>
   )
 }

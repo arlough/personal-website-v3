@@ -1,10 +1,11 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col justify-center ml-4 mr-4 text-white sm:flex-row">
+    <section className="flex flex-col justify-center ml-auto mr-auto sm:flex-row">
       <motion.div
         className="px-8 "
         initial={{ scale: 0.75 }}
@@ -23,14 +24,14 @@ export default function Hero() {
 
       <div
         id="hero"
-        className="flex flex-col justify-center w-auto px-8 py-8 space-y-3 sm:w-2/5 "
+        className="flex flex-col justify-center px-8 py-8 space-y-3 sm:max-w-md "
       >
 
             <motion.h1
               initial={{ x: 100 }}
               animate={{ x: 0 }}
               transition={{ type: "spring" }}
-              className="text-3xl font-extrabold text-left"
+              className="text-4xl font-black text-left"
             >
               Aidan Loughney
             </motion.h1>
@@ -47,7 +48,7 @@ export default function Hero() {
               initial={{ x: 100 }}
               animate={{ x: 0 }}
               transition={{ type: "spring" }}
-              className="text-xl font-bold text-left"
+              className="text-xl font-bold text-left text-balance "
             >
               I&apos;m Aidan, a Software Engineer based out of Salt Lake City <span className="inline-block hover:animate-jump">⛰️</span>
             </motion.p>
