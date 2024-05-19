@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className="flex flex-col justify-center ml-auto mr-auto sm:flex-row">
       <motion.div
-        className="px-8 "
+        className="sm:px-8 "
         initial={{ scale: 0.75 }}
         animate={{ scale: 1 }}
         transition={{ ease: "easeOut", duration: 0.5 }}
@@ -24,7 +24,7 @@ export default function Hero() {
 
       <div
         id="hero"
-        className="flex flex-col justify-center px-8 py-8 space-y-3 sm:max-w-md "
+        className="flex flex-col justify-center py-8 space-y-3 sm:px-8 max-w-fit "
       >
 
             <motion.h1
@@ -50,7 +50,7 @@ export default function Hero() {
               transition={{ type: "spring" }}
               className="text-xl font-bold text-left text-balance "
             >
-              I&apos;m Aidan, a Software Engineer based out of Salt Lake City <span className="inline-block hover:animate-jump">⛰️</span>
+              I&apos;m Aidan, a Software Engineer <br></br> based out of Salt Lake City <span className="inline-block hover:animate-jump">⛰️</span>
             </motion.p>
       
         </div>
