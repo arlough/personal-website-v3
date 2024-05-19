@@ -48,7 +48,7 @@ export default function Colophon() {
       <Section title={"Inspirations"}>
         <ul>
           <li>
-            - I&apos;m using Apple&apos;s New York font which was inspired by this blog post
+            - I&apos;m using Apple&apos;s New York font which was inspired by this <a className="underline hover:text-hover" href="https://matthew-jackson.com/blog/using-apples-new-york-font-in-css/">blog post</a>
           </li>
           <li>
             - Finally, the concept of this page is inspired by{" "}
@@ -56,7 +56,7 @@ export default function Colophon() {
               className="underline hover:text-hover"
               href="https://maggieappleton.com/colophon"
             >
-              Maggie Appleton's site colophon
+              Maggie Appleton&apos;s site colophon
             </a>
           </li>
         </ul>
