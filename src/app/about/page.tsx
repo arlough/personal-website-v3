@@ -10,6 +10,7 @@ import {
   faGoodreads,
   faSquareLetterboxd,
 } from "@fortawesome/free-brands-svg-icons";
+import { faTicket } from "@fortawesome/free-solid-svg-icons";
 
 export const metadata: Metadata = {
   title: "About - Aidan Loughney",
@@ -42,6 +43,9 @@ export default function About() {
         </a>
         <a className='hover:text-[#D51007]' href="https://www.last.fm/user/ARL360">
           <FontAwesomeIcon icon={faLastfm} />
+        </a>
+        <a className='hover:text-[#FFC0CB]' href="https://www.setlist.fm/concerts/aidanloughney">
+        <FontAwesomeIcon icon={faTicket} />
         </a>
         <a className='hover:text-[#e9e5cd]' href="https://www.goodreads.com/user/show/10529152-aidan">
           <FontAwesomeIcon icon={faGoodreads} />
