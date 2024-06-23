@@ -11,7 +11,7 @@ export default function RootLayout({
     <html lang="en" className='min-h-screen'>
       <body className='flex flex-col max-w-screen-xl min-h-screen ml-auto mr-auto text-white'>
         <Navbar />
-        <main className='mt-20 ml-20 mr-20'>
+        <main className='mt-8 ml-8 mr-8 md:mt-24 md:ml-16 md:mr-16'>
         {children}
         </main>
         <Footer />
