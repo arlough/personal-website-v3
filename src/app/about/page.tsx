@@ -31,22 +31,22 @@ export default function About() {
         </a>
       </Section>
       <ul className="flex flex-row space-x-2 *:w-6 *:h-6">
-        <a href="https://www.linkedin.com/in/aidanloughney/">
+        <a className='hover:text-[#0072b1]' href="https://www.linkedin.com/in/aidanloughney/">
           <FontAwesomeIcon icon={faLinkedinIn} />
         </a>
-        <a href="https://www.last.fm/user/ARL360">
+        <a className='hover:text-[#2b3137]' href="https://github.com/ArLough">
           <FontAwesomeIcon icon={faGithub} />
         </a>
-        <a href="https://open.spotify.com/user/aidan_360">
+        <a className='hover:text-[#1DB954]' href="https://open.spotify.com/user/aidan_360">
           <FontAwesomeIcon icon={faSpotify} />
         </a>
-        <a href="https://www.linkedin.com/in/aidanloughney/">
+        <a className='hover:text-[#D51007]' href="https://www.last.fm/user/ARL360">
           <FontAwesomeIcon icon={faLastfm} />
         </a>
-        <a href="https://www.goodreads.com/user/show/10529152-aidan">
+        <a className='hover:text-[#e9e5cd]' href="https://www.goodreads.com/user/show/10529152-aidan">
           <FontAwesomeIcon icon={faGoodreads} />
         </a>
-        <a href="https://letterboxd.com/arlough/">
+        <a className='hover:text-[#808080]' href="https://letterboxd.com/arlough/">
           <FontAwesomeIcon icon={faSquareLetterboxd} />
         </a>
       </ul>
