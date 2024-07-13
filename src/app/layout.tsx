@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { ViewTransitions } from 'next-view-transitions'
 
 export default function RootLayout({
 	children,
@@ -8,6 +9,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
+		<ViewTransitions>
 		<html lang="en" className="min-h-screen">
 			<body className="flex flex-col max-w-screen-xl min-h-screen ml-auto mr-auto text-white">
 				<Navbar />
@@ -17,5 +19,6 @@ export default function RootLayout({
 				<Footer />
 			</body>
 		</html>
+		</ViewTransitions>
 	);
 }
