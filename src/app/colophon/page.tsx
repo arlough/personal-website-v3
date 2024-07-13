@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { BlockQuote } from "../../components/BlockQuote";
 import { Section } from "../../components/Section";
 import { StandardLayout } from "../../components/layouts/StandardLayout";
+import ExtLink from "../../components/atoms/ExtLink";
 export const metadata: Metadata = {
 	title: "Colophon - Aidan Loughney",
 };
@@ -14,12 +15,11 @@ export default function Colophon() {
 					You may be asking yourself &quot;Wait what&apos;s this page for?&quot;
 					In short, you can think of this page as a mixture of a credits page
 					and a how it was built page. Or as{" "}
-					<a
-						className="underline hover:text-hover"
+					<ExtLink
 						href="https://indieweb.org/colophon"
 					>
 						indieweb
-					</a>{" "}
+					</ExtLink>{" "}
 					describes it...
 				</p>
 				<BlockQuote citation={"https://indieweb.org/colophon"}>
@@ -30,41 +30,38 @@ export default function Colophon() {
 			</Section>
 			<Section title={"How it was made"}>
 				This site was built with{" "}
-				<a className="underline hover:text-hover" href="https://nextjs.org/">
+				<ExtLink href="https://nextjs.org/">
 					Next.js
-				</a>
+				</ExtLink>
 				, styled with{" "}
-				<a
-					className="underline hover:text-hover"
+				<ExtLink
 					href="https://tailwindcss.com/"
 				>
 					Tailwind
-				</a>
+				</ExtLink>
 				, and deployed on{" "}
-				<a className="underline hover:text-hover" href="https://vercel.com/">
+				<ExtLink href="https://vercel.com/">
 					Vercel
-				</a>
+				</ExtLink>
 			</Section>
 			<Section title={"Inspirations"}>
 				<ul>
 					<li>
 						- I&apos;m using Apple&apos;s New York font which was inspired by
 						this{" "}
-						<a
-							className="underline hover:text-hover"
+						<ExtLink
 							href="https://matthew-jackson.com/blog/using-apples-new-york-font-in-css/"
 						>
 							blog post
-						</a>
+						</ExtLink>
 					</li>
 					<li>
 						- Finally, the concept of this page is inspired by{" "}
-						<a
-							className="underline hover:text-hover"
+						<ExtLink
 							href="https://maggieappleton.com/colophon"
 						>
 							Maggie Appleton&apos;s site colophon
-						</a>
+						</ExtLink>
 					</li>
 				</ul>
 			</Section>
