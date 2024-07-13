@@ -26,7 +26,7 @@ export default function About() {
 				a team in S3. If you want to know more about me or chat, drop me a
 				message at{" "}
 				<ExtLink href="mailto:loughneyaidan@gmail.com" hideIcon>
-					loughneyaidan@gmail.com
+					loughneyaidan[at]gmail.com
 				</ExtLink>
 			</Section>
 			<Section>

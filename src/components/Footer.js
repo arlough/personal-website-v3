@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'next-view-transitions'
+import { Link } from "next-view-transitions";
 
 export default function Footer() {
 	return (
