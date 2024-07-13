@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Now() {
 	return (
 		<StandardLayout title={"Now"}>
-			<Section>What I'm up to right now... updated infrequently</Section>
+			<Section>What I&apos;m up to right now... updated infrequently</Section>
 			<NowBlock date="2024-7-13">
 				<ul>
 					<li>
