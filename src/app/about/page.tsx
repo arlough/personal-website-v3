@@ -7,7 +7,6 @@ import {
 	faLastfm,
 	faGithub,
 	faSpotify,
-	faGoodreads,
 	faSquareLetterboxd,
 } from "@fortawesome/free-brands-svg-icons";
 import { faTicket } from "@fortawesome/free-solid-svg-icons";
@@ -26,7 +25,7 @@ export default function About() {
 				a team in S3. If you want to know more about me or chat, drop me a
 				message at{" "}
 				<ExtLink href="mailto:loughneyaidan@gmail.com" hideIcon>
-					loughneyaidan[at]gmail.com
+					loughneyaidan [at] gmail [dot] com
 				</ExtLink>
 			</Section>
 			<Section>
@@ -75,10 +74,13 @@ export default function About() {
 					<FontAwesomeIcon icon={faTicket} />
 				</a>
 				<a
-					className="hover:text-[#e9e5cd]"
-					href="https://www.goodreads.com/user/show/10529152-aidan"
+					className="hover:text-[#6366f1]"
+					href="https://hardcover.app/@arlough"
 				>
-					<FontAwesomeIcon icon={faGoodreads} />
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+</svg>
+
 				</a>
 				<a
 					className="hover:text-[#808080]"
