@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { ViewTransitions } from "next-view-transitions";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function RootLayout({
 	children,
@@ -19,6 +20,7 @@ export default function RootLayout({
 					</main>
 					<Footer />
 					<SpeedInsights />
+					<Analytics />;
 				</body>
 			</html>
 		</ViewTransitions>
