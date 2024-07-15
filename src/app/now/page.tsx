@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { Section } from "../../components/Section";
 import { StandardLayout } from "../../components/layouts/StandardLayout";
-import NowBlock from "../../components/NowBlock";
+import NowBlock from "../../components/atoms/NowBlock";
 
 export const metadata: Metadata = {
 	title: "Now - Aidan Loughney",

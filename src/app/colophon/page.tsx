@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { BlockQuote } from "../../components/BlockQuote";
+import { BlockQuote } from "../../components/atoms/BlockQuote";
 import { Section } from "../../components/Section";
 import { StandardLayout } from "../../components/layouts/StandardLayout";
 import ExtLink from "../../components/atoms/ExtLink";
@@ -11,7 +11,6 @@ export default function Colophon() {
 		<StandardLayout title={"Colophon"}>
 			<Section>
 				<p>
-					{" "}
 					You may be asking yourself &quot;Wait what&apos;s this page for?&quot;
 					In short, you can think of this page as a mixture of a credits page
 					and a how it was built page. Or as{" "}

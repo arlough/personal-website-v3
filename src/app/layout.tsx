@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { ViewTransitions } from "next-view-transitions";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function RootLayout({
 	children,
@@ -17,6 +18,7 @@ export default function RootLayout({
 						{children}
 					</main>
 					<Footer />
+					<SpeedInsights />
 				</body>
 			</html>
 		</ViewTransitions>
