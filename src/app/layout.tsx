@@ -20,7 +20,7 @@ export default function RootLayout({
 					</main>
 					<Footer />
 					<SpeedInsights />
-					<Analytics />;
+					<Analytics />
 				</body>
 			</html>
 		</ViewTransitions>
