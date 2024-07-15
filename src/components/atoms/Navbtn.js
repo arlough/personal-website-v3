@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 
 export default function Navbtn({ link, label, onClick }) {
 	const pathname = usePathname();
-	console.log(pathname);
 	return (
 		<Link
 			onClick={() => {
