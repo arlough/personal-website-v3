@@ -18,7 +18,7 @@ export default function ExtLink({ href, children, hideIcon }: ExtLinkProps) {
 						viewBox="0 0 24 24"
 						strokeWidth={2.0}
 						stroke="currentColor"
-						className="size-4"
+						className="size-2"
 					>
 						<path
 							strokeLinecap="round"
