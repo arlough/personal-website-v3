@@ -11,12 +11,12 @@ export default function ExtLink({ href, children, hideIcon }: ExtLinkProps) {
 		<a className="inline-block underline hover:text-hover" href={href}>
 			{children}
 			{!hideIcon && (
-				<div className="inline-block align-text-top">
+				<div className="hidden align-text-top hover:inline-block hover:visible">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
 						viewBox="0 0 24 24"
-						strokeWidth={2.5}
+						strokeWidth={3}
 						stroke="currentColor"
 						className="size-2"
 					>
