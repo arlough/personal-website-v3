@@ -28,7 +28,7 @@ export default function About() {
 					loughneyaidan [at] gmail [dot] com
 				</ExtLink>
 			</Section>
-			<Section>
+			{/* <Section>
 				Some of my interests:
 				<br />
 				fintech •{" "}
@@ -44,7 +44,7 @@ export default function About() {
 				<ExtLink href="https://maggieappleton.com/garden-history">
 					digital gardens
 				</ExtLink>
-			</Section>
+			</Section> */}
 			<ul className="flex flex-row space-x-2 *:w-6 *:h-6">
 				<a
 					className="hover:text-[#0072b1]"

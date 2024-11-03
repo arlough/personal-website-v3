@@ -16,7 +16,7 @@ export default function Navbar() {
 						<div className="flex items-center space-x-5 ">
 							<Navbtn link={"/"} label={"Home"}></Navbtn>
 							<Navbtn link={"/about"} label={"About"}></Navbtn>
-							<Navbtn link={"/now"} label={"Now"}></Navbtn>
+							{/* <Navbtn link={"/now"} label={"Now"}></Navbtn> */}
 							{/* <Navbtn link={"/bookshelf"} label={"Bookshelf"}></Navbtn> */}
 						</div>
 					</div>

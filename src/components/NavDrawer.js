@@ -75,7 +75,7 @@ export default function NavDrawer() {
 									link={"/about"}
 									label={"About"}
 								></Navbtn>
-								<Navbtn onClick={toggle} link={"/now"} label={"Now"}></Navbtn>
+								{/* <Navbtn onClick={toggle} link={"/now"} label={"Now"}></Navbtn> */}
 								<button className="hover:text-hover" onClick={toggle}>
 									{closeIcon()}
 								</button>
