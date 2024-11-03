@@ -16,6 +16,7 @@ export default function Hero() {
 					priority={true}
 					width={200}
 					height={250}
+					placeholder="blur"
 					className=" rounded-3xl"
 					src="/profile_pic.jpg"
 					alt="profile picture"
