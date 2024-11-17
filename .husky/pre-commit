@@ -1,0 +1,4 @@
+#!/bin/sh
+
+next lint
+prettier --write \"./src/**/*.{ts,tsx}\"
