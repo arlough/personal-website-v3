@@ -5,7 +5,7 @@ import NavDrawer from "../components/NavDrawer";
 
 export default function Navbar() {
 	return (
-		<nav className="mt-3 text-xl font-bold text-white shadow-xl justify-self-start bg-background ">
+		<nav className="mt-3 text-xl font-bold justify-self-start">
 			<div className="flex items-center justify-center md:hidden">
 				<NavDrawer />
 			</div>
@@ -16,14 +16,11 @@ export default function Navbar() {
 						<div className="flex items-center space-x-5 ">
 							<Navbtn link={"/"} label={"Home"}></Navbtn>
 							<Navbtn link={"/about"} label={"About"}></Navbtn>
-							{/* <Navbtn link={"/now"} label={"Now"}></Navbtn> */}
-							{/* <Navbtn link={"/bookshelf"} label={"Bookshelf"}></Navbtn> */}
 						</div>
 					</div>
 
 					{/* left nav */}
 					<div className="flex items-center px-5 py-2">
-						{/* <Navbtn link={"/contact"} label={"Contact"}></Navbtn> */}
 					</div>
 				</div>
 			</div>

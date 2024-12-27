@@ -12,8 +12,8 @@ export default function RootLayout({
 }) {
   return (
     <ViewTransitions>
-      <html lang="en" className="min-h-screen">
-        <body className="flex flex-col max-w-screen-xl min-h-screen ml-auto mr-auto text-white">
+      <html lang="en" className="min-h-screen" data-theme="dark">
+        <body className="flex flex-col max-w-screen-xl min-h-screen ml-auto mr-auto text-primary">
           <Navbar />
           <main className="mt-8 ml-8 mr-8 md:mt-24 md:ml-16 md:mr-16">
             {children}
