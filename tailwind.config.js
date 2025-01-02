@@ -15,6 +15,7 @@ module.exports = {
         secondary: "var(--secondary)",
         hover: "var(--hover)",
         button: "var(--button)",
+        background: "var(--foreground-rgb)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
