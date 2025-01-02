@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Navbtn from "../components/atoms/Navbtn";
 import NavDrawer from "../components/NavDrawer";
+import { DarkModeSwitch } from "./darkModeSwitch";
 
 export default function Navbar() {
 	return (
@@ -21,6 +22,7 @@ export default function Navbar() {
 
 					{/* left nav */}
 					<div className="flex items-center px-5 py-2">
+						<DarkModeSwitch />
 					</div>
 				</div>
 			</div>

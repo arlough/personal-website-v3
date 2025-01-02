@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  :root[data-theme='dark'] {
+  :root[data-theme='dark']{
     --foreground-rgb: 0,0,0;
     --background-start-rgb: 3,7,18;
     --background-end-rgb: 3,7,18;

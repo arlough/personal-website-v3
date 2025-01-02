@@ -68,15 +68,13 @@ export default function NavDrawer() {
 							animate={{ opacity: 1 }}
 							exit={{ opacity: 0 }}
 						>
-							<DialogPanel className="absolute top-0 flex flex-col items-center w-full pt-4 pb-4 bg-black shadow-lg rounded-3xl shadow-primary">
+							<DialogPanel className="absolute top-0 flex flex-col items-center w-full pt-4 pb-4 bg-current shadow-lg rounded-3xl shadow-primary">
 								<Navbtn onClick={toggle} link={"/"} label={"Home"}></Navbtn>
 								<Navbtn
 									onClick={toggle}
 									link={"/about"}
 									label={"About"}
-								></Navbtn>
-								{/* <Navbtn onClick={toggle} link={"/now"} label={"Now"}></Navbtn> */}
-								<button className="hover:text-hover" onClick={toggle}>
+								></Navbtn>								<button className="hover:text-hover" onClick={toggle}>
 									{closeIcon()}
 								</button>
 							</DialogPanel>
