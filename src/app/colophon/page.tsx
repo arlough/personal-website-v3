@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { BlockQuote } from "../../components/atoms/BlockQuote";
-import { Section } from "../../components/Section";
+import { Section } from "../../components/layouts/Section";
 import { StandardLayout } from "../../components/layouts/StandardLayout";
 import ExtLink from "../../components/atoms/ExtLink";
 export const metadata: Metadata = {

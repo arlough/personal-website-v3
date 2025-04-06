@@ -26,9 +26,9 @@ export default function Hero() {
           <span className="inline-block animation-waving-hand">👋🏻</span>
         </h2>
 
-        <h2 className="text-xl font-bold text-left text-balance ">
-          I&apos;m Aidan, a Software Engineer <br></br> based out of Salt Lake
-          City <span className="inline-block hover:animate-jump">⛰️</span>
+        <h2 className="text-xl font-bold text-left">
+          I&apos;m Aidan, a Software Engineer <br/> based out of Salt Lake
+          City<span className="inline-block hover:animate-jump">⛰️</span>
         </h2>
       </div>
     </section>

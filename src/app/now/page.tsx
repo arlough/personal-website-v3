@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Section } from "../../components/Section";
+import { Section } from "../../components/layouts/Section";
 import { StandardLayout } from "../../components/layouts/StandardLayout";
 import NowBlock from "../../components/atoms/NowBlock";
 

@@ -17,7 +17,7 @@ export default function RootLayout({
         <body className="flex flex-col max-w-screen-xl min-h-screen ml-auto mr-auto text-primary">
           <ThemeProvider defaultTheme="system" enableSystem>
             <Navbar />
-            <main className="mt-8 ml-8 mr-8 md:mt-24 md:ml-16 md:mr-16">
+            <main className="mt-8 ml-8 mr-8 md:mt-16 md:ml-16 md:mr-16">
               {children}
             </main>
             <Footer />

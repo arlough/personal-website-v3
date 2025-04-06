@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Section } from "../../components/Section";
+import { Section } from "../../components/layouts/Section";
 import { StandardLayout } from "../../components/layouts/StandardLayout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,6 +11,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faTicket } from "@fortawesome/free-solid-svg-icons";
 import ExtLink from "../../components/atoms/ExtLink";
+import InlineLink from "../../components/atoms/InlineLink";
 
 export const metadata: Metadata = {
   title: "About - Aidan Loughney",
@@ -29,25 +30,12 @@ export default function About() {
         me a message at{" "}
         <ExtLink href="mailto:loughneyaidan@gmail.com" hideIcon>
           loughneyaidan [at] gmail [dot] com
-        </ExtLink>
+        </ExtLink>{" "}
+        <br />
+        <br />
+        Feel free to checkout some of the other pages on my site. You can see a
+        list of all the pages <InlineLink href="directory">here</InlineLink>
       </Section>
-      {/* <Section>
-				Some of my interests:
-				<br />
-				fintech •{" "}
-				<ExtLink href="https://www.inkandswitch.com/end-user-programming/">
-					end user programming
-				</ExtLink>{" "}
-				• user interfaces • programming languages • knowledge management tools •
-				the open web • urbanism • political philosophy •{" "}
-				<ExtLink href="https://en.wikipedia.org/wiki/Third_place">
-					third places
-				</ExtLink>{" "}
-				• keyboards •{" "}
-				<ExtLink href="https://maggieappleton.com/garden-history">
-					digital gardens
-				</ExtLink>
-			</Section> */}
       <ul className="flex flex-row space-x-2 *:w-6 *:h-6">
         <a
           className="hover:text-[#0072b1]"

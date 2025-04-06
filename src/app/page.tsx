@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Hero from "../components/Hero";
-import { Section } from "../components/Section";
 
 export const metadata: Metadata = {
   title: "Home - Aidan Loughney",
