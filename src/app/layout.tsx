@@ -5,12 +5,12 @@ import { ViewTransitions } from "next-view-transitions";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "next-themes";
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: 'Aidan Loughney',
-    template: '%s · Aidan Loughney',
+    default: "Aidan Loughney",
+    template: "%s · Aidan Loughney",
   },
 };
 
@@ -19,7 +19,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  
   return (
     <ViewTransitions>
       <html lang="en" className="min-h-screen">
