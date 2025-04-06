@@ -5,7 +5,7 @@ import NowBlock from "../../components/atoms/NowBlock";
 import ExtLink from "../../components/atoms/ExtLink";
 
 export const metadata: Metadata = {
-  title: "Now - Aidan Loughney",
+  title: "Now",
 };
 export default function Now() {
   return (

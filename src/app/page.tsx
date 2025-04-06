@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Hero from "../components/Hero";
 
 export const metadata: Metadata = {
-  title: "Home - Aidan Loughney",
+  title: "Home · Aidan Loughney",
   description:
     "Welcome to my portfolio website! Here, you'll find examples of my software development projects, technical skills, and experience. Browse my site to learn more about how I can contribute to your organization, and to connect with me for potential opportunities.",
 };

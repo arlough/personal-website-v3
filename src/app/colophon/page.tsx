@@ -4,7 +4,7 @@ import { Section } from "../../components/layouts/Section";
 import { StandardLayout } from "../../components/layouts/StandardLayout";
 import ExtLink from "../../components/atoms/ExtLink";
 export const metadata: Metadata = {
-  title: "Colophon - Aidan Loughney",
+  title: "Colophon",
 };
 export default function Colophon() {
   return (

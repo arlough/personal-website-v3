@@ -14,7 +14,7 @@ import ExtLink from "../../components/atoms/ExtLink";
 import InlineLink from "../../components/atoms/InlineLink";
 
 export const metadata: Metadata = {
-  title: "About - Aidan Loughney",
+  title: "About",
 };
 export default function About() {
   return (
