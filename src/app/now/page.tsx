@@ -10,7 +10,12 @@ export const metadata: Metadata = {
 export default function Now() {
   return (
     <StandardLayout title={"Now"}>
-      <Section>What I&apos;m up to right now... updated infrequently<br/>Inspired by the <ExtLink href="https://nownownow.com/about">now page movement</ExtLink></Section>
+      <Section>
+        What I&apos;m up to right now... updated infrequently
+        <br />
+        Inspired by the{" "}
+        <ExtLink href="https://nownownow.com/about">now page movement</ExtLink>
+      </Section>
       <NowBlock date="2024-7-13">
         <ul>
           <li>
