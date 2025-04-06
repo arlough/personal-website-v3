@@ -3,8 +3,10 @@ import { getPages } from "../lib/getPages";
 import getUrl from "../lib/getUrl";
 
 export default function NotFound() {
-  const pages = getPages()
-  const randomPageHref = getUrl(pages[Math.floor(Math.random()*pages.length)])
+  const pages = getPages();
+  const randomPageHref = getUrl(
+    pages[Math.floor(Math.random() * pages.length)],
+  );
   return (
     <div className="flex justify-center font-bold">
       <div className="flex flex-col items-center font-bold space-y-4">
