@@ -32,9 +32,6 @@ export default function About() {
           loughneyaidan [at] gmail [dot] com
         </ExtLink>{" "}
         <br />
-        <br />
-        Feel free to checkout some of the other pages on my site. You can see a
-        list of all the pages <InlineLink href="directory">here</InlineLink>
       </Section>
       <ul className="flex flex-row space-x-2 *:w-6 *:h-6">
         <a

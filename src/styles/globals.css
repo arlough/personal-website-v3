@@ -1,25 +1,107 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: -apple-system-ui-serif, ui-serif, Georgia, serif;
+
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-hover: var(--hover);
+  --color-button: var(--button);
+  --color-background: var(--foreground-rgb);
+
+  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-image-gradient-conic: conic-gradient(
+    from 180deg at 50% 50%,
+    var(--tw-gradient-stops)
+  );
+
+  --animate-waving-hand: wave 2s linear 2;
+  --animate-jump: jump 0.5s ease-in 2;
+
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    }
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes jump {
+    0% {
+      transform: translateY(0%);
+    }
+    25% {
+      transform: translateY(-10%);
+    }
+    50% {
+      transform: translateY(-20%);
+    }
+    60% {
+      transform: translateY(-10%);
+    }
+    70% {
+      transform: translateY(-5%);
+    }
+    80% {
+      transform: translateY(0);
+    }
+  }
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
 
 @layer base {
   :root[data-theme="dark"] {
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 3, 7, 18;
     --background-end-rgb: 3, 7, 18;
-    --primary: theme(colors.white);
-    --secondary: theme(colors.indigo.600);
+    --primary: var(--color-white);
+    --secondary: var(--color-indigo-600);
     --button: 255, 255, 255;
-    --hover: theme(colors.indigo.600);
+    --hover: var(--color-indigo-600);
   }
   :root[data-theme="light"] {
     --foreground-rgb: #f2f2f2;
     --background-start-rgb: #f2f2f2;
     --background-end-rgb: #f2f2f2;
-    --primary: theme(colors.slate.900);
-    --secondary: theme(colors.indigo.600);
+    --primary: var(--color-slate-900);
+    --secondary: var(--color-indigo-600);
     --button: 255, 255, 255;
-    --hover: theme(colors.indigo.600);
+    --hover: var(--color-indigo-600);
   }
 }
 body {
