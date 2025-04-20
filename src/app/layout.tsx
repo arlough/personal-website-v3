@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <ViewTransitions>
       <html lang="en" className="min-h-screen">
-        <body className="flex flex-col max-w-(--breakpoint-xl) min-h-screen ml-auto mr-auto text-primary">
+        <body className="flex flex-col max-w-(--breakpoint-xl) min-h-screen ml-auto mr-auto text-primary selection:bg-secondary">
           <ThemeProvider defaultTheme="system" enableSystem>
             <Navbar />
             <main className="mt-8 ml-8 mr-8 md:mt-16 md:ml-16 md:mr-16">
