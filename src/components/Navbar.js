@@ -2,6 +2,8 @@
 import React from "react";
 import Navbtn from "../components/atoms/Navbtn";
 import { DarkModeSwitch } from "./darkModeSwitch";
+import InitialsGraphic from "./HomeLink";
+import HomeLink from "./HomeLink";
 
 export default function Navbar() {
   return (
@@ -12,13 +14,14 @@ export default function Navbar() {
           <div className="flex px-5 py-2 space-x-5">
             {/* right nav */}
             <div className="flex items-center space-x-5 ">
-              <Navbtn link={"/"} label={"Home"}></Navbtn>
-              <Navbtn link={"/about"} label={"About"}></Navbtn>
+              <HomeLink/>
+
             </div>
           </div>
 
           {/* left nav */}
-          <div className="flex items-center px-5 py-2">
+          <div className="flex items-center px-5 py-2 space-x-5">
+          <Navbtn link={"/about"} label={"About"}></Navbtn>
             <DarkModeSwitch />
           </div>
         </div>
