@@ -29,7 +29,7 @@ export default function RootLayout({
             <main className="mt-8 ml-8 mr-8 md:mt-16 md:ml-16 md:mr-16">
               {children}
             </main>
-            <TabBar/>
+            <TabBar />
             <Footer />
             <SpeedInsights />
             <Analytics />
