@@ -6,6 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "next-themes";
 import type { Metadata } from "next";
+import TabBar from "../components/tapBar/tabBar";
 
 export const metadata: Metadata = {
   title: {
@@ -28,6 +29,7 @@ export default function RootLayout({
             <main className="mt-8 ml-8 mr-8 md:mt-16 md:ml-16 md:mr-16">
               {children}
             </main>
+            <TabBar/>
             <Footer />
             <SpeedInsights />
             <Analytics />
