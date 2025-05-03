@@ -5,7 +5,7 @@ import { DarkModeSwitch } from "../darkModeSwitch";
 
 export default function TabBar() {
   return (
-    <nav className=" md:hidden flex space-x-4 shadow-primary/50 shadow rounded-2xl pt-2 pb-2 pr-4 pl-4 z-10 fixed bottom-12 left-1/2 -translate-1/2">
+    <nav className="md:hidden flex space-x-6 shadow-primary/50 shadow rounded-3xl pt-4 pb-4 pr-6 pl-6 z-10 fixed bottom-8 left-1/2 -translate-1/2 backdrop-blur-3xl">
       <Link href={"/"}>
         <HomeIcon />
       </Link>
