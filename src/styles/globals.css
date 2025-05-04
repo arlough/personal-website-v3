@@ -105,6 +105,7 @@
   }
 }
 body {
+  interpolate-size: allow-keywords;
   color: var(--primary);
   background: linear-gradient(
       to bottom,
@@ -112,4 +113,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+li {
+  list-style-type: circle;
 }
