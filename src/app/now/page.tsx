@@ -19,9 +19,7 @@ export default function Now() {
       <div className="self-start md:w-1/2 w-full">
         <Card title="2024-7-13">
           <ul>
-            <li>
-              Working at SoFi, learning a lot about web development
-            </li>
+            <li>Working at SoFi, learning a lot about web development</li>
             <li>Visiting National parks and exploring SLC & Utah ⛰️</li>
             <li>Trying new hobbies - currently trying bouldering</li>
           </ul>
