@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { Section } from "../../components/layouts/Section";
 import { StandardLayout } from "../../components/layouts/StandardLayout";
-import ExtLink from "../../components/atoms/ExtLink";
 import { Card } from "../../components/Card";
 
 export const metadata: Metadata = {
@@ -10,9 +9,7 @@ export const metadata: Metadata = {
 export default function Now() {
   return (
     <StandardLayout title={"Now"}>
-      <Section>
-        What I&apos;m up to right now.
-      </Section>
+      <Section>What I&apos;m up to right now.</Section>
       <div className="self-start md:w-1/2 w-full">
         <Card title="2024-7-13">
           <ul>

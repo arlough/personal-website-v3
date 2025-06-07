@@ -11,7 +11,6 @@ export default function ExtLink({ href, children, hideIcon }: ExtLinkProps) {
     <a className="inline-block underline hover:text-hover" href={href}>
       {children}
       {!hideIcon && (
-
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

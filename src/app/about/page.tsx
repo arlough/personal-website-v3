@@ -26,18 +26,34 @@ export default function About() {
           Borrow. Before SoFi, I was a student at the University of Michigan〽️
           where I graduated with a degree in Computer Science. Previously, I
           interned at{" "}
-          <ExtLink href="https://aws.amazon.com/about-aws/">AWS</ExtLink> where I
-          worked on a team in S3.
+          <ExtLink href="https://aws.amazon.com/about-aws/">AWS</ExtLink> where
+          I worked on a team in S3.
         </p>
         <p>
-          Professionally I&apos;m interested in fin-tech, the open web, social impact, climate tech, <ExtLink href="https://www.inkandswitch.com/end-user-programming/">end-user programming</ExtLink>. Outside of work you can find me <ExtLink href="https://hardcover.app/@arlough">reading sci-fi & fantasy</ExtLink>, <ExtLink href="https://www.alltrails.com/members/aidan-loughney">hiking</ExtLink>, trying out bouldering, and <ExtLink href="https://www.last.fm/user/ARL360">going to lots of concerts</ExtLink>
+          Professionally I&apos;m interested in fin-tech, the open web, social
+          impact, climate tech,{" "}
+          <ExtLink href="https://www.inkandswitch.com/end-user-programming/">
+            end-user programming
+          </ExtLink>
+          . Outside of work you can find me{" "}
+          <ExtLink href="https://hardcover.app/@arlough">
+            reading sci-fi & fantasy
+          </ExtLink>
+          ,{" "}
+          <ExtLink href="https://www.alltrails.com/members/aidan-loughney">
+            hiking
+          </ExtLink>
+          , trying out bouldering, and{" "}
+          <ExtLink href="https://www.last.fm/user/ARL360">
+            going to lots of concerts
+          </ExtLink>
         </p>
         <p>
-          If you want to chat, drop
-          me a message at{" "}
+          If you want to chat, drop me a message at{" "}
           <ExtLink href="mailto:loughneyaidan@gmail.com" hideIcon>
             loughneyaidan [at] gmail [dot] com
-          </ExtLink>{" "}</p>
+          </ExtLink>{" "}
+        </p>
       </Section>
       <ul className="flex flex-row space-x-2 *:w-6 *:h-6">
         <a
