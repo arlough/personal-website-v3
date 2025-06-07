@@ -2,7 +2,6 @@
 import React from "react";
 import Navbtn from "../components/atoms/Navbtn";
 import { DarkModeSwitch } from "./darkModeSwitch";
-import InitialsGraphic from "./HomeLink";
 import HomeLink from "./HomeLink";
 
 export default function Navbar() {
@@ -15,7 +14,8 @@ export default function Navbar() {
             {/* right nav */}
             <div className="flex items-center space-x-5 ">
               <HomeLink/>
-
+              <Navbtn link={"/about"} label={"About"}></Navbtn>
+              <Navbtn link={"/now"} label={"Now"}></Navbtn>
             </div>
           </div>
 
