@@ -13,14 +13,13 @@ export default function Navbar() {
           <div className="flex px-5 py-2 space-x-5">
             {/* right nav */}
             <div className="flex items-center space-x-5 ">
-              <HomeLink/>
-              <Navbtn link={"/about"} label={"About"}></Navbtn>
-              <Navbtn link={"/now"} label={"Now"}></Navbtn>
+              <HomeLink/>        
             </div>
           </div>
 
           {/* left nav */}
           <div className="flex items-center px-5 py-2 space-x-5">
+             <Navbtn link={"/now"} label={"Now"}></Navbtn>
           <Navbtn link={"/about"} label={"About"}></Navbtn>
             <DarkModeSwitch />
           </div>
