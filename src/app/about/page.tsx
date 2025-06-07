@@ -11,7 +11,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faTicket } from "@fortawesome/free-solid-svg-icons";
 import ExtLink from "../../components/atoms/ExtLink";
-import InlineLink from "../../components/atoms/InlineLink";
 
 export const metadata: Metadata = {
   title: "About",
@@ -31,7 +30,7 @@ export default function About() {
         </p>
         <p>
           Professionally I&apos;m interested in fin-tech, the open web, social
-          impact, climate tech,{" "}
+          impact, climate tech, and{" "}
           <ExtLink href="https://www.inkandswitch.com/end-user-programming/">
             end-user programming
           </ExtLink>
