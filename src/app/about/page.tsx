@@ -30,8 +30,8 @@ export default function About() {
         </p>
         <p>
           Professionally I&apos;m interested in fin-tech, the open web, social
-          impact, climate tech, and creative tools. Outside of work you can
-          find me{" "}
+          impact, climate tech, and creative tools. Outside of work you can find
+          me{" "}
           <ExtLink href="https://hardcover.app/@arlough">
             reading sci-fi & fantasy
           </ExtLink>
@@ -40,7 +40,7 @@ export default function About() {
             hiking
           </ExtLink>
           , trying out bouldering, and{" "}
-          <ExtLink href="https://www.last.fm/user/ARL360">
+          <ExtLink href="https://www.setlist.fm/concerts/aidanloughney">
             going to lots of concerts
           </ExtLink>
         </p>
