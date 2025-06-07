@@ -30,7 +30,7 @@ export default function About() {
         </p>
         <p>
           Professionally I&apos;m interested in fin-tech, the open web, social
-          impact, climate tech, and creative tools . Outside of work you can
+          impact, climate tech, and creative tools. Outside of work you can
           find me{" "}
           <ExtLink href="https://hardcover.app/@arlough">
             reading sci-fi & fantasy
