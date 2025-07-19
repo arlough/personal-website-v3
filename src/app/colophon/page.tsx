@@ -25,13 +25,17 @@ export default function Colophon() {
       </Section>
       <Section title={"How it was made"}>
         <p>
-          This site was built with <ExtLink href="https://nextjs.org/">Next.js</ExtLink>, styled with <ExtLink href="https://tailwindcss.com/">Tailwind</ExtLink>, and
-          deployed on <ExtLink href="https://vercel.com/">Vercel</ExtLink></p>
+          This site was built with{" "}
+          <ExtLink href="https://nextjs.org/">Next.js</ExtLink>, styled with{" "}
+          <ExtLink href="https://tailwindcss.com/">Tailwind</ExtLink>, and
+          deployed on <ExtLink href="https://vercel.com/">Vercel</ExtLink>
+        </p>
       </Section>
       <Section title={"Inspirations"}>
         <ul>
-          <li>I&apos;m using Apple&apos;s New York font which was inspired by
-            this{" "}<ExtLink href="https://matthew-jackson.com/blog/using-apples-new-york-font-in-css/">
+          <li>
+            I&apos;m using Apple&apos;s New York font which was inspired by this{" "}
+            <ExtLink href="https://matthew-jackson.com/blog/using-apples-new-york-font-in-css/">
               blog post
             </ExtLink>
           </li>
