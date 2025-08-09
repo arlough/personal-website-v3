@@ -103,8 +103,18 @@
     --button: 255, 255, 255;
     --hover: var(--color-indigo-600);
   }
-}
-body {
+   h1 {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-weight-extrabold);
+  }
+  h2 {
+     font-size: var(--text-xl);
+    font-weight: var(--font-weight-semibold);
+  }
+
+
+
+  body {
   interpolate-size: allow-keywords;
   color: var(--primary);
   background: linear-gradient(
@@ -113,9 +123,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+    font-size: var(--text-lg);
+    font-weight: var(--font-weight-medium);
+
 }
 
 li {
   list-style-type: circle;
   list-style-position: inside;
 }
+}
+

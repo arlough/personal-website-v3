@@ -1,6 +1,4 @@
 import { Metadata } from "next";
-import { Section } from "../../components/layouts/Section";
-import { StandardLayout } from "../../components/layouts/StandardLayout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedinIn,
@@ -17,41 +15,41 @@ export const metadata: Metadata = {
 };
 export default function About() {
   return (
-    <StandardLayout title={"About"}>
-      <Section>
-        <p>
-          Hi! I&apos;m a Software Engineer at{" "}
-          <ExtLink href="https://www.sofi.com/our-story/">Sofi</ExtLink> in
-          Borrow. Before SoFi, I was a student at the University of Michigan〽️
-          where I graduated with a degree in Computer Science. Previously, I
-          interned at{" "}
-          <ExtLink href="https://aws.amazon.com/about-aws/">AWS</ExtLink> where
-          I worked on a team in S3.
-        </p>
-        <p>
-          Professionally I&apos;m interested in fintech, the open web, social
-          impact, climate tech, and creative tools. Outside of work you can find
-          me{" "}
-          <ExtLink href="https://hardcover.app/@arlough">
-            reading sci-fi & fantasy
-          </ExtLink>
-          ,{" "}
-          <ExtLink href="https://www.alltrails.com/members/aidan-loughney">
-            hiking
-          </ExtLink>
-          , trying out bouldering, and{" "}
-          <ExtLink href="https://www.setlist.fm/concerts/aidanloughney">
-            going to lots of concerts
-          </ExtLink>
-        </p>
-        <p>
-          If you want to chat, drop me a message at{" "}
-          <ExtLink href="mailto:loughneyaidan@gmail.com" hideIcon>
-            loughneyaidan [at] gmail [dot] com
-          </ExtLink>{" "}
-        </p>
-      </Section>
-      <ul className="flex flex-row space-x-2 *:w-6 *:h-6">
+    <article className="space-y-2">
+      <h1>About</h1>
+      <p>
+        Hi! I&apos;m a Software Engineer at{" "}
+        <ExtLink href="https://www.sofi.com/our-story/">Sofi</ExtLink> in
+        Borrow. Before SoFi, I was a student at the University of Michigan〽️
+        where I graduated with a degree in Computer Science. Previously, I
+        interned at{" "}
+        <ExtLink href="https://aws.amazon.com/about-aws/">AWS</ExtLink> where
+        I worked on a team in S3.
+      </p>
+      <p>
+        Professionally I&apos;m interested in fintech, the open web, social
+        impact, and creative tools. Outside of work you can find
+        me{" "}
+        <ExtLink href="https://hardcover.app/@arlough">
+          reading sci-fi & fantasy
+        </ExtLink>
+        ,{" "}
+        <ExtLink href="https://www.alltrails.com/members/aidan-loughney">
+          hiking
+        </ExtLink>
+        , trying out bouldering, and{" "}
+        <ExtLink href="https://www.setlist.fm/concerts/aidanloughney">
+          going to lots of concerts
+        </ExtLink>
+      </p>
+      <p>
+        If you want to chat, drop me a message at{" "}
+        <ExtLink href="mailto:loughneyaidan@gmail.com" hideIcon>
+          loughneyaidan [at] gmail [dot] com
+        </ExtLink>{" "}
+      </p>
+
+      <ul className="mt-6 flex flex-row space-x-2 *:w-6 *:h-6">
         <a
           className="hover:text-[#0072b1]"
           href="https://www.linkedin.com/in/aidanloughney/"
@@ -105,6 +103,6 @@ export default function About() {
           <FontAwesomeIcon icon={faSquareLetterboxd} />
         </a>
       </ul>
-    </StandardLayout>
+    </article>
   );
 }
