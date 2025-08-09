@@ -23,13 +23,12 @@ export default function About() {
         Borrow. Before SoFi, I was a student at the University of Michigan〽️
         where I graduated with a degree in Computer Science. Previously, I
         interned at{" "}
-        <ExtLink href="https://aws.amazon.com/about-aws/">AWS</ExtLink> where
-        I worked on a team in S3.
+        <ExtLink href="https://aws.amazon.com/about-aws/">AWS</ExtLink> where I
+        worked on a team in S3.
       </p>
       <p>
         Professionally I&apos;m interested in fintech, the open web, social
-        impact, and creative tools. Outside of work you can find
-        me{" "}
+        impact, and creative tools. Outside of work you can find me{" "}
         <ExtLink href="https://hardcover.app/@arlough">
           reading sci-fi & fantasy
         </ExtLink>

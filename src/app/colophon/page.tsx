@@ -10,8 +10,8 @@ export default function Colophon() {
       <h1>Colophon</h1>
       <p>
         You may be asking yourself &quot;Wait what&apos;s this page for?&quot;
-        In short, you can think of this page as a mixture of a credits page
-        and a how it was built page. Or as{" "}
+        In short, you can think of this page as a mixture of a credits page and
+        a how it was built page. Or as{" "}
         <ExtLink href="https://indieweb.org/colophon">indieweb</ExtLink>{" "}
         describes it...
       </p>
@@ -43,6 +43,6 @@ export default function Colophon() {
           </ExtLink>
         </li>
       </ul>
-    </ article>
+    </article>
   );
 }
